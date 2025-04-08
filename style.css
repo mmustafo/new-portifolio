@@ -1,0 +1,324 @@
+/* adlam-display-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "ADLaM Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/adlam-display-v1-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Akronim";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/akronim-v23-latin-regular.woff2") format("woff2");
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v47-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v47-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v47-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v47-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/roboto-v47-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v47-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* abel-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/abel-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__header {
+  background-color: rgb(189, 119, 68);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+}
+.nav__ul__navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav__li__navigation {
+  font-family: "ADLaM Display";
+  padding: 10px;
+  color: #fff;
+
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+.nav__li__navigation:hover {
+  background-color: #df8600;
+  color: rgb(224, 172, 183);
+  transition: 0.3s ease;
+}
+
+.nav__ul__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.fa-brands {
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav__li__right {
+  background-color: transition;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav__li__right:hover {
+  background-color: #df8600;
+}
+
+.nav__logo {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav__logo:hover {
+  background-color: #df8600;
+  transition: 0.3s ease;
+}
+
+/* main start */
+
+.me__desc__df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.me__dec__title {
+}
+
+.main__me__desc__title_h4 {
+  font-family: "Roboto";
+  color: #fff;
+  font-size: 25px;
+  color: rgb(224, 215, 209);
+}
+.main__me__desc__title_h1 {
+  color: #fff;
+  font-family: "Akronim";
+  color: rgb(73, 44, 24);
+  margin-top: 10px;
+  font-size: 45px;
+}
+.main__me__desc__title_h3 {
+  color: #fff;
+  font-family: "Roboto";
+  margin-top: 10px;
+  color: rgb(224, 215, 209);
+  font-size: 25px;
+}
+.main__me__desc__title_p {
+  color: #fff;
+  font-family: "Roboto";
+  color: rgb(224, 215, 209);
+  font-weight: 900;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.me__desc__image__div {
+}
+.me__desc__image {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 100, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.95) 60%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 80px 40px rgba(255, 80, 0, 0.4);
+}
+
+.nain__me__desc__section {
+  background-color: rgb(189, 119, 68);
+  padding-top: 100px;
+}
+
+@media (max-width: 500px) {
+  .me__desc__df {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__li__navigation {
+    display: none;
+  }
+  .me__desc__image__div {
+    margin-top: 100px;
+  }
+  .my__skills__df {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .my__skills__title__p {
+    display: none;
+  }
+  .my__skills__right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shakarop {
+    display: none;
+  }
+  .display__none {
+    display: none;
+  }
+  .my__skills__title__h3 {
+    display: none;
+  }
+}
+
+/* my skills start */
+
+.my__skills {
+  background-color: rgb(189, 119, 68);
+  padding-top: 100px;
+}
+.my__skills__h2 {
+  color: #fff;
+  text-align: center;
+}
+.my__skills__df {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.my__skills__left {
+}
+.my__skills__title__h3 {
+  font-family: Roboto;
+  color: #fff;
+}
+.my__skills__title__p {
+  font-family: Roboto;
+  max-width: 400px;
+  text-align: start;
+  margin-top: 10px;
+  color: #fff;
+}
+.Skills__foter_df {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Skills__foter_df__text__p {
+  font-family: Roboto;
+  color: #fff;
+}
+.shakarop {
+  font-family: Roboto;
+  font-size: 65px;
+  color: #fff;
+  font-family: "Abel";
+}
+.my__skills__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right__skills__top {
+}
+.right__number__df {
+}
+.right__number__text {
+  font-family: Roboto;
+  margin-top: 20px;
+  color: #fff;
+  /* font-family: 'Abel'; */
+}
+.right__number__nuber {
+  /* font-family: Roboto; */
+  color: #fff;
+  font-family: "Abel";
+}
+.right__skills__bottom {
+  color: #fff;
+}
+
+.conteiners {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* my skills end */
+
+/* main end */
