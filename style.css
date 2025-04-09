@@ -111,6 +111,7 @@ li {
   font-family: "ADLaM Display";
   padding: 10px;
   color: #fff;
+  cursor: pointer;
 
   background-color: transparent;
   border-radius: 12px;
