@@ -191,8 +191,7 @@ li {
   margin-top: 10px;
   font-size: 20px;
 }
-.me__desc__image__div {
-}
+
 .me__desc__image {
   max-width: 300px;
   height: 300px;
@@ -224,102 +223,93 @@ li {
   .me__desc__image__div {
     margin-top: 100px;
   }
-  .my__skills__df {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .my__skills__title__p {
-    display: none;
-  }
-  .my__skills__right {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .shakarop {
-    display: none;
-  }
-  .display__none {
-    display: none;
-  }
-  .my__skills__title__h3 {
-    display: none;
-  }
+ 
 }
 
 /* my skills start */
-
-.my__skills {
-  background-color: rgb(189, 119, 68);
+.my__launge {
+  background-color:#BD7744;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
-.my__skills__h2 {
-  color: #fff;
+.container {
+}
+.my__launge__content{
+  background-color: #c4641f;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: #7e4e07 20px 20px 20px;
+  
+}
+.my__launge__content__h2 {
+  font-family: Roboto;
+  font-size: 25px;
   text-align: center;
+  color: #fff;
+  max-width: 1200px;
+
 }
-.my__skills__df {
+.contents__flex__lunge {
   display: flex;
-  align-items: start;
   justify-content: space-between;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
-.my__skills__left {
+
+.my__launge{
+  color: #fff;
+  font-family: Roboto;
+  /* font-size: ; */
 }
-.my__skills__title__h3 {
+
+.my__launges__number{
+  font-size: 40px;
+  font-family: "ADLaM Display";
+}
+/* my skills end */
+
+/* about start */
+.about__me {
+  background-color: #BD7744;
+  padding-bottom: 100px;
+}
+.about__contents {
+  max-width: 1200px;
+
+}
+.about__contents__h2 {
+  text-align: center;
   font-family: Roboto;
   color: #fff;
+  font-size: 50px;
+  font-weight: 700;
 }
-.my__skills__title__p {
-  font-family: Roboto;
-  max-width: 400px;
-  text-align: start;
-  margin-top: 10px;
-  color: #fff;
+.about__content {
 }
-.Skills__foter_df {
+.about__contents__image{
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  gap: 5px;
+  justify-content: center;
+
 }
-.Skills__foter_df__text__p {
+
+.about__contents__p{
+  max-width: 800px;
+  text-align: center;
   font-family: Roboto;
-  color: #fff;
-}
-.shakarop {
-  font-family: Roboto;
-  font-size: 65px;
-  color: #fff;
-  font-family: "Abel";
-}
-.my__skills__right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.right__skills__top {
-}
-.right__number__df {
-}
-.right__number__text {
-  font-family: Roboto;
+  margin: 0 auto;
   margin-top: 20px;
   color: #fff;
-  /* font-family: 'Abel'; */
+  font-weight: 600;
+  font-size: 18px;
 }
-.right__number__nuber {
-  /* font-family: Roboto; */
-  color: #fff;
-  font-family: "Abel";
-}
-.right__skills__bottom {
-  color: #fff;
-}
-
-.conteiners {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* my skills end */
+/* about end */
 
 /* main end */
